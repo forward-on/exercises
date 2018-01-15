@@ -1,4 +1,4 @@
-package com.worthy.ly;
+package com.worthy.ly.first;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
