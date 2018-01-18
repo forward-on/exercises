@@ -58,7 +58,7 @@ public class Recursion {
     static int i = 1;    //记录步数
     //i表示进行到的步数,将编号为n的盘子由from柱移动到to柱(目标柱)
     public static void move(int n,char from,char to){
-        String format = String.format("第%d步:将%d号盘子%c---->%c", i++, n, from, to);
+        String format = String.format("第%d步:将%d号盘子%c号柱子---->%c", i++, n, from, to);
         System.out.println(format);
     }
 
