@@ -1,4 +1,4 @@
-package com.worthy.ly.recursion;
+package exerrecursion.recursion;
 
 /**
  * 二分查找法 递归

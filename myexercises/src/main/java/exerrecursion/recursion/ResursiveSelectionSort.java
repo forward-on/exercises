@@ -1,4 +1,4 @@
-package com.worthy.ly.recursion;
+package exerrecursion.recursion;
 
 import org.junit.Test;
 
