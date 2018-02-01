@@ -1,14 +1,12 @@
 package com.worthy.ly.utils;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 //import com.bbtree.mq.ClientFactory;
 //import com.bbtree.mq.IMqClient;
 //import com.bbtree.schoolnotice.api.vo.AchieveNotifyVo;
 //import com.bbtree.schoolnotice.api.vo.PushNoticeVo;
 //import com.bbtree.schoolnotice.core.handler.AchieveNoticeHandler;
 //import com.bbtree.schoolnotice.core.handler.PushNoticeByRead;
-import conf.SchoolnoticeConf;
+import com.worthy.ly.conf.SchoolnoticeConf;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +16,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import java.util.Date;
-import java.util.concurrent.ExecutorService;
+        import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @DependsOn("schoolnoticeConf")

@@ -1,4 +1,4 @@
-package conf;
+package com.worthy.ly.conf;
 
 import com.baidu.disconf.client.common.annotations.DisconfFile;
 import com.baidu.disconf.client.common.annotations.DisconfFileItem;

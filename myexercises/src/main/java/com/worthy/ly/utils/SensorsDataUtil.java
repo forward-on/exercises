@@ -3,7 +3,7 @@ package com.worthy.ly.utils;
 import com.alibaba.fastjson.JSONObject;
 import com.sensorsdata.analytics.javasdk.SensorsAnalytics;
 import com.sensorsdata.analytics.javasdk.exceptions.InvalidArgumentException;
-import conf.SchoolnoticeConf;
+import com.worthy.ly.conf.SchoolnoticeConf;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

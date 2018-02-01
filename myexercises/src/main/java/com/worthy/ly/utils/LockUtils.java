@@ -1,10 +1,8 @@
 package com.worthy.ly.utils;
 
 //import com.bbtree.cache.ICacheClient;
-//import com.bbtree.schoolnotice.conf.SchoolnoticeConf;
+//import com.bbtree.schoolnotice.com.worthy.ly.conf.SchoolnoticeConf;
 //import com.bbtree.schoolnotice.core.cache.SchoolNoticeCache;
-import com.worthy.ly.service.ICacheClient;
-import conf.SchoolnoticeConf;
 
 public class LockUtils {
 

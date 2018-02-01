@@ -126,12 +126,12 @@ public class CacheClientFactory {
     }
 
     private static JedisConfig parseConfig(String config) {
-        JedisConfig conf = (JedisConfig)JSON.parseObject(config, JedisConfig.class);
+        JedisConfig com.worthy.ly.conf = (JedisConfig)JSON.parseObject(config, JedisConfig.class);
         if(log.isDebugEnabled()) {
-            log.debug(" ---> jedis parseConfig: {}", JSON.toJSON(conf));
+            log.debug(" ---> jedis parseConfig: {}", JSON.toJSON(com.worthy.ly.conf));
         }
 
-        return conf;
+        return com.worthy.ly.conf;
     }
 
     private static void resetCache(CacheConfig cacheConfig) {
