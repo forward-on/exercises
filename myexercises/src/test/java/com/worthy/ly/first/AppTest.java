@@ -102,4 +102,5 @@ public class AppTest {
         LinkedHashMap<String, Object> choice = extendVo.getChoice();
         System.out.println(choice);
     }
+
 }

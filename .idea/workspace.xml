@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bf2dfab-3d24-42cf-8e89-3f606a72b81a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/cache/CacheClientFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/cache/CacheConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/conf/SchoolnoticeConf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/model/Module.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/service/ICacheClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/ConsumerNoticeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/DateUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/LockUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/MakeUpNoticeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/PicUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/PinyinUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/SensorsDataUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/TabNameUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/com/worthy/ly/utils/TreeUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/exerrecursion/recursion/ResursiveBinarySearch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/main/java/exerrecursion/recursion/ResursiveSelectionSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/ExtendVo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/WechatSign.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/second/Recursion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/cache/CacheClientFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/cache/CacheConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/conf/SchoolnoticeConf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/model/Module.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/recursion/ResursiveBinarySearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/recursion/ResursiveSelectionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/service/ICacheClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/ConsumerNoticeUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/DateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/LockUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/MakeUpNoticeUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/PicUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/PinyinUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/SensorsDataUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/SensorsDataUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/TabNameUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/com/worthy/ly/utils/TreeUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/exerrecursion/recursion/ResursiveBinarySearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/classes/exerrecursion/recursion/ResursiveSelectionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/test-classes/com/worthy/ly/first/AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/test-classes/com/worthy/ly/first/ExtendVo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/test-classes/com/worthy/ly/first/WechatSign.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myexercises/target/test-classes/com/worthy/ly/second/Recursion.class" afterPath="" />
-    </list>
+    <list default="true" id="8bf2dfab-3d24-42cf-8e89-3f606a72b81a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/myexercises/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,61 +23,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+            <state relative-caret-position="603">
+              <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myexercises/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="324">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtendVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/ExtendVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding>
-                <element signature="e#297#298#0" expanded="false" />
-                <element signature="e#330#331#0" expanded="false" />
-                <element signature="e#379#380#0" expanded="false" />
-                <element signature="e#423#424#0" expanded="false" />
-                <element signature="e#453#454#0" expanded="false" />
-                <element signature="e#482#483#0" expanded="false" />
-                <element signature="e#523#524#0" expanded="false" />
-                <element signature="e#559#560#0" expanded="false" />
-                <element signature="e#587#588#0" expanded="false" />
-                <element signature="e#614#615#0" expanded="false" />
-                <element signature="e#651#652#0" expanded="false" />
-                <element signature="e#683#684#0" expanded="false" />
-                <element signature="e#739#740#0" expanded="false" />
-                <element signature="e#768#769#0" expanded="false" />
-                <element signature="e#835#836#0" expanded="false" />
-                <element signature="e#871#872#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WechatSign.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/WechatSign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -278,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -406,7 +317,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -985,6 +898,7 @@
       <workItem from="1517207433406" duration="8571000" />
       <workItem from="1517474754266" duration="359000" />
       <workItem from="1517475121064" duration="5342000" />
+      <workItem from="1517885841644" duration="3203000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1516011967336</created>
@@ -1043,10 +957,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38031000" />
+    <option name="totallyTimeSpent" value="41234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1058,21 +972,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2733189" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27440348" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15405117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27452025" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1132,8 +1046,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1863">
+          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1142,24 +1056,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,9 +1064,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexercises/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,24 +1088,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,9 +1096,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/ExtendVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/WechatSign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,9 +1136,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,53 +1360,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/ExtendVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/WechatSign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/ExtendVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#423#424#0" expanded="false" />
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#482#483#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#871#872#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myexercises/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="324">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myexercises/src/test/java/com/worthy/ly/first/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
           <folding />
         </state>
       </provider>
