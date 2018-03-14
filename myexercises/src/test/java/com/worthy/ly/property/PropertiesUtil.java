@@ -13,7 +13,7 @@ public class PropertiesUtil {
 
     public static void getValue(String key) {
         properties = new Properties();
-        InputStream inputStream = PropertiesUtil.class.getResourceAsStream("/keyvalue.properties");
+        InputStream inputStream = PropertiesUtil.class.getResourceAsStream("/keynotice.properties");
         try {
             properties.load(inputStream);
             String value = properties.getProperty(key);

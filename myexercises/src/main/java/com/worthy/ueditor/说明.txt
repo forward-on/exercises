@@ -1,0 +1,106 @@
+使用百度ueditor时，
+后台：
+    1、导包，附在最后
+    2、在resources配置两个文件
+        1） ali-oss.properties
+          #oss 上传配置文件
+          oss.bucketName=bbtree-filesystem
+          oss.domain=http://fast-file1system.bbtree.com/%s
+          oss.accessKeyId=LTAIMVhWYtxTfESX
+          oss.accessKeySecret=lW7Oj6qy8OiexUzPX6DFwfz14wI2tj
+          oss.roleArn=acs:ram::1452605047194812:role/ramrw
+          oss.endpoint=oss-cn-hangzhou.aliyuncs.com
+          #单位B,KB,MB,GB
+          oss.maxSize=10MB
+
+        2、ueditor-config.json
+          修改其中 "imagePathFormat": "/ueditor/ht/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
+    3、写一个接口方法
+          /**
+           * 百度ueditor富问本编辑器,图片上传接口支持
+           * @param request
+           * @param response
+           * @throws Exception
+           */
+          @RequestMapping(value = "/ueditor/controller")
+          public void ueditor(HttpServletRequest request, HttpServletResponse response)throws Exception{
+              request.setCharacterEncoding( "utf-8" );
+              response.setHeader("Content-Type" , "text/html");
+
+              ServletContext application = request.getServletContext();
+              String rootPath = application.getRealPath( "/" );
+
+              PrintWriter out = response.getWriter();
+              out.write(new ActionEnter(request, rootPath ).exec());
+
+              out.flush();
+              out.close();
+          }
+        注意：ali-oss.properties文件要被disconf扫描到，需要修改xml文件
+
+前端：导入下载的jsp-utf-8的包，修改图片请求路径
+1.在ueditor.config中的js代码中 serverUrl: URL + "php/controller.php" 中的URL 表示当前ueditor.config文件所处的url地址+php/controller.php
+比如：某网站的文件路径是F:\root\abc.com\web\ud/ueditor.config，其中web目录是网站跟目。
+那么“serverUrl: URL + "php/controller.php" 的文件路径是F:\root\abc.com\web\ud\php\controller.php
+上例eg：URL + /ueditor/controller?action=uploadimage
+************************************************************************************************************************
+
+需要导入的依赖：
+<dependency>
+   <groupId>com.aliyun.openservices</groupId>
+   <artifactId>aliyun-openservices</artifactId>
+   <version>1.0.10</version>
+   <exclusions>
+      <exclusion>
+         <artifactId>commons-codec</artifactId>
+         <groupId>commons-codec</groupId>
+      </exclusion>
+      <exclusion>
+         <artifactId>commons-logging</artifactId>
+         <groupId>commons-logging</groupId>
+      </exclusion>
+   </exclusions>
+</dependency>
+<dependency>
+   <groupId>com.aliyun.oss</groupId>
+   <artifactId>aliyun-sdk-oss</artifactId>
+   <version>2.7.0</version>
+</dependency>
+<dependency>
+   <groupId>com.aliyun</groupId>
+   <artifactId>aliyun-java-sdk-sts</artifactId>
+   <version>2.1.6</version>
+</dependency>
+<dependency>
+   <groupId>com.aliyun</groupId>
+   <artifactId>aliyun-java-sdk-core</artifactId>
+   <version>2.1.7</version>
+</dependency>
+<dependency>
+   <groupId>org.json</groupId>
+   <artifactId>json</artifactId>
+   <version>20160810</version>
+</dependency>
+<dependency>
+   <groupId>commons-fileupload</groupId>
+   <artifactId>commons-fileupload</artifactId>
+   <version>1.3.1</version>
+   <scope>compile</scope>
+</dependency>
+<dependency>
+   <groupId>commons-io</groupId>
+   <artifactId>commons-io</artifactId>
+   <version>2.4</version>
+   <scope>compile</scope>
+</dependency>
+
+<!--
+    以下是maven仓库中的ueditor依赖：
+    <dependency>
+      <groupId>cn.songxinqiang</groupId>
+      <artifactId>com.baidu.ueditor</artifactId>
+      <version>1.1.2-offical</version>
+      <scope>system</scope >
+      <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ueditor-1.1.2.jar</systemPath >
+    </dependency>
+-->
